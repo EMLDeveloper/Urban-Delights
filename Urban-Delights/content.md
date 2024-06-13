@@ -8,7 +8,7 @@ We are a technology company first, but with a major focus on consumer well-being
 
 Headline: A healthy meal delivered to your door, every single day
 
-Brand color: #e67e22, #38d9a9, #4dabf7,#087f5b
+Brand color: ##008080, #e6f2f2, #cce6e6
 
 ## Urban Delights Website Content
 
