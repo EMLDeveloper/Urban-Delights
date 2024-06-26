@@ -37,7 +37,7 @@ Approve your weekly meal plan: Once per week, approve the meal plan generated fo
 
 Receive meals at convenient time: Best chefs in town will cook your selected meal every day, and we will deliver it to your door whenever works best for you. You can change delivery schedule and address daily!
 
-### Urban Delights
+### Urban Delights works with any diet
 
 works with any diet
 
