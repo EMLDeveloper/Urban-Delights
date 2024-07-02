@@ -73,6 +73,7 @@ Medium: 11px
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -81,6 +82,7 @@ body {
   font-weight: 400;
   color: #555;
   margin: 0;
+  overflow-x: hidden;
 }
 
 /****************************************************/
