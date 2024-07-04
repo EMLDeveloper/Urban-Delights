@@ -2,7 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/logo favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple icon.png" />
+    <link rel="" href="img/android 1.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <meta
+      name="description"
+      content="Urban Delights is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -32,7 +42,7 @@
 
     <script defer src="js/script.js"></script>
 
-    <title>Urban Delights</title>
+    <title>Urban Delights &mdash; Never cook again</title>
   </head>
   <body>
     <header class="header">
@@ -45,13 +55,15 @@
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#how">How it Works</a></li>
-          <li><a class="main-nav-link" href="#meals">Meals</a></li>
+          <li><a class="main-nav-link" href="#how">Discover</a></li>
+          <li><a class="main-nav-link" href="#meals">Specialties</a></li>
           <li>
             <a class="main-nav-link" href="#testimonials">Testimonials</a>
           </li>
-          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
-          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
+          <li><a class="main-nav-link" href="#pricing">Subscription</a></li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#cta">Explore for Free </a>
+          </li>
         </ul>
       </nav>
 
@@ -77,9 +89,9 @@
               Nutritional Goals.
             </p>
             <a href="#cta" class="btn btn--full margin-right-sm"
-              >Start eating Well</a
+              >Begin Eating Healthy</a
             >
-            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+            <a href="#how" class="btn btn--outline">Explore with us &darr;</a>
             <div class="delivered-meals">
               <div class="delivered-imgs">
                 <img src="img/Customers/Aliah Lane.jpg" alt="customer-1" />
@@ -96,7 +108,7 @@
           </div>
           <div class="hero-img-box">
             <img
-              src="img/Hero.jpg"
+              src="img/Main Hero.jpg"
               alt="Woman enjoying food."
               class="hero-img"
             />
@@ -125,7 +137,7 @@
 
       <section class="section-how" id="how">
         <div class="container">
-          <span class="subheading">How it works</span>
+          <span class="subheading">Discover</span>
           <h2 class="heading-secondary marginB">
             Enjoy Daily Healthy Meals — Download Our App Now!
           </h2>
@@ -213,7 +225,7 @@
 
       <section class="section-meals" id="meals">
         <div class="container center-text">
-          <span class="subheading">Meals</span>
+          <span class="subheading">Specialties</span>
           <h2 class="heading-secondary">
             Urban DelightsAI chooses from 5,000+ recipes
           </h2>
@@ -321,7 +333,7 @@
           </div>
         </div>
         <div class="container all-recepies">
-          <a href="#" class="link">See all recipes &rarr;</a>
+          <a href="#cta" class="link">See all recipes &rarr;</a>
         </div>
       </section>
 
@@ -429,7 +441,7 @@
       </section>
       <section class="section-pricing" id="pricing">
         <div class="container">
-          <span class="subheading">Pricing</span>
+          <span class="subheading">Subscription</span>
           <h2 class="heading-secondary">
             Urban Delights offers plans to fit your needs
           </h2>
@@ -461,7 +473,7 @@
               </li>
             </ul>
             <div class="plan-sign-up">
-              <a href="#" class="btn btn--full">Start eating Well</a>
+              <a href="#cta" class="btn btn--full">Start your journey</a>
             </div>
           </div>
           <div class="pricing-plan pricing-plan--medium">
@@ -489,7 +501,7 @@
               </li>
             </ul>
             <div class="plan-sign-up">
-              <a href="#" class="btn btn--full">Start eating Well</a>
+              <a href="#cta" class="btn btn--full">Start your journey</a>
             </div>
           </div>
         </div>
@@ -608,21 +620,26 @@
           <ul class="social-links">
             <li>
               <a href="#"
-                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+                ><ion-icon
+                  class="social-icon"
+                  name="restaurant-outline"
+                ></ion-icon
               ></a>
             </li>
             <li>
               <a href="#"
-                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+                ><ion-icon class="social-icon" name="fitness-outline"></ion-icon
               ></a>
             </li>
             <li>
               <a href="#"
-                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+                ><ion-icon
+                  class="social-icon"
+                  name="information-circle-outline"
+                ></ion-icon
               ></a>
             </li>
           </ul>
-
           <p class="copyright">
             Copyright &copy; <span class="year">2024</span> by Urban Delights,
             inc. all rights reserved.
@@ -631,9 +648,7 @@
         <div class="address-col">
           <p class="footer-heading">Contact us</p>
           <address class="contacts">
-            <p class="address">
-              623 Harrison St., 2nd Floor, San Francisco, CA 94107
-            </p>
+            <p class="address">230 Vesey St, New York, NY 10281</p>
             <p>
               <a class="footer-link" href="tel:415-201-6370">415-201-6370</a>
               <a class="footer-link" href="mailto:hello@UrbanDelights.com"
@@ -645,16 +660,16 @@
         <nav class="nav-col">
           <p class="footer-heading">Account</p>
           <ul class="footer-nav">
-            <li><a class="footer-link" href="#">Create account</a></li>
-            <li><a class="footer-link" href="#">Sign in</a></li>
-            <li><a class="footer-link" href="#">iOS app</a></li>
-            <li><a class="footer-link" href="#">Android app</a></li>
+            <li><a class="footer-link" href="#cta">Create account</a></li>
+            <li><a class="footer-link" href="#how">Sign in</a></li>
+            <li><a class="footer-link" href="#how">iOS app</a></li>
+            <li><a class="footer-link" href="#how">Android app</a></li>
           </ul>
         </nav>
         <nav class="nav-col">
           <p class="footer-heading">Company</p>
           <ul class="footer-nav">
-            <li><a class="footer-link" href="#">About Us </a></li>
+            <li><a class="footer-link" href="#testimonials">About Us </a></li>
             <li><a class="footer-link" href="#">For Business</a></li>
             <li><a class="footer-link" href="#">Co-wokers</a></li>
             <li><a class="footer-link" href="#">Careers</a></li>
